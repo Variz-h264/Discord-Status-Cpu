@@ -10,3 +10,29 @@
 ```dotenv
 TOKEN = USER_TOKEN
 ```
+
+> 3. วิธีเอา Token User เอาโค้ดที่อยู่ด้านล่างไปใส่ใน console ของ discord ที่อยู่ใน browser
+
+```js
+window.webpackChunkdiscord_app.push([
+    [Math.random()],
+    {},
+    req => {
+        for (const m of Object.keys(req.c)
+        .map(x => req.c[x].exports)
+        .filter(x => x)) {
+        if (m.default && m.default.getToken !== undefined) {
+            return copy(m.default.getToken());
+        }
+        if (m.getToken !== undefined) {
+            return copy(m.getToken());
+        }
+        }
+    },
+]);
+
+console.log('%cWorked!', 'font-size: 50px');
+console.log(`%cYou now have your token in the clipboard!`, 'font-size: 16px');
+```
+
+> ![image](https://cdn.discordapp.com/attachments/1156240425347207314/1157590613055766548/image.png?ex=651929c5&is=6517d845&hm=fad71673c4e1b847344e12438b2852a564a6d1913e0a69f74d797ead9b547a1f&)
