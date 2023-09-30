@@ -36,3 +36,7 @@ console.log(`%cYou now have your token in the clipboard!`, 'font-size: 16px');
 ```
 
 > ![image](https://cdn.discordapp.com/attachments/1156240425347207314/1157590613055766548/image.png?ex=651929c5&is=6517d845&hm=fad71673c4e1b847344e12438b2852a564a6d1913e0a69f74d797ead9b547a1f&)
+
+## ผลลัพธ์
+#### การใช้งาน cpu ตรงนี้จะอัพเดตทุกๆ 1วินาที ถ้าใครอยากได้เร็วกว่านั้นก็ไปแก้โค้ดเอาได้เลย ส่วนตัวผมมองว่าอัพเดตทุกๆ 1วิ ก็ค่อนข้างโอเครแล้ว โค้ดตัวนี้ผมปล่อยให้เอาไปพัฒนาต่อได้เต็มทีเลยครับ
+> ![image](https://cdn.discordapp.com/attachments/1156240425347207314/1157591793500688386/image.png?ex=65192ade&is=6517d95e&hm=a686f4baa5ab603b3fc41316a2312c6d72a4405a82ba9de7365b0c40969de3e3&)
